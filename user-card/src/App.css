@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  background: #666;
+  background: rgb(77, 119, 161);
 }
 
 .App {
@@ -23,6 +23,7 @@ html {
 .user img {
   width: 200px;
   margin: 0 auto;
+  border: 1px solid #fff;
 }
 
 .user p {
@@ -32,4 +33,20 @@ html {
 
 .followers-title {
   font-size: 4rem;
+  margin: 50px;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.follower {
+  width: 300px;
+}
+
+.follower img {
+  width: 200px;
+  border: 1px solid #fff;
 }
