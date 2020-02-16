@@ -3,6 +3,7 @@ import React from 'react';
 const UserCard = ({ user }) => {
     return(
         <div>
+            <img src={user.avatar_url} alt={user.name}/>
             <h1>{user.name}</h1>
             <p>{user.location}</p>
             <p>{user.bio}</p>
