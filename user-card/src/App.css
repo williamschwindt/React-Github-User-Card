@@ -1,8 +1,35 @@
 html {
   font-size: 62.5%;
+  background: #666;
 }
 
 .App {
   text-align: center;
+  color: #fff;
 }
 
+.user {
+  margin: 30px auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user h1 {
+  font-size: 3rem;
+}
+
+.user img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.user p {
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.followers-title {
+  font-size: 4rem;
+}

@@ -43,6 +43,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <UserCard user={this.state.user} />
+        <h1 className="followers-title">Followers</h1>
         <FollowersCard followers={this.state.followers} />
       </div>
     );
