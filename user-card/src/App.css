@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+  background: rgb(77, 119, 161);
+}
+
+.App {
+  text-align: center;
+  color: #fff;
+}
+
+.user {
+  margin: 30px auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user h1 {
+  font-size: 3rem;
+}
+
+.user img {
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+.user p {
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.followers-title {
+  font-size: 4rem;
+  margin: 50px;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.follower {
+  width: 300px;
+}
+
+.follower img {
+  width: 200px;
+  border: 1px solid #fff;
+}
